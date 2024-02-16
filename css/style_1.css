@@ -61,10 +61,10 @@ input {
     margin: 10px 5%;
     padding: 15px 10px;
     font-size: 14px;
-    bolder: 2px solid silver;
-    bolder-radius: 5px;
+    border: 2px solid silver;
+    border-radius: 5px;
 }
 
 input:focus {
-    bolder-color: #db5d5d;
+    border-color: #db5d5d;
 }
