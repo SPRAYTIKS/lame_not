@@ -41,18 +41,7 @@
             let name = document.getElementById("user_name").value;
             let email = document.getElementById("user_email").value;
             let phone = document.getElementById("user_phone").value;
-            if(name.length < 5) {
-                document.getElementById("ERO").innerText = 'Ошибка имени';
-                return;
-            }
-            if(email.length < 5) {
-                document.getElementById("ERO").innerText = 'Ошибка email';
-                return;
-            }
-            if(phone.length < 5) {
-                document.getElementById("ERO").innerText = 'Ошибка в номере телефона';
-                return;
-            }
+
             let data = {
                 name: name,
                 email: email,
